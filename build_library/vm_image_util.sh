@@ -677,6 +677,7 @@ pciBridge6.functions = "8"
 pciBridge7.present = "TRUE"
 pciBridge7.virtualDev = "pcieRootPort"
 pciBridge7.functions = "8"
+vmci0.present = "TRUE"
 EOF
     # Only upload the vmx if it won't be bundled
     if [[ -z "$(_get_vm_opt BUNDLE_FORMAT)" ]]; then
